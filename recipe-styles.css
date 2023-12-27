@@ -1,46 +1,47 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 5;
+    padding: 10;
     box-sizing: border-box;
   }
   
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
-    background-color: #fff9e8;
+    line-height: 1.8;
+    padding: 10px;
+    background-color: #413107;
   }
   
   article {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #fff;
-    border: 1px solid #ddd;
+    background: #72828a;
+    border: 1px solid #311616;
     border-radius: 8px;
   }
   
   h1, h2 {
-    color: #5a2c02;
+    color: #4b448d;
   }
   
   .recipe-img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 150px;
   }
   
-  .ingredients ul, .instructions ol {
+  .ingredients ul, .directions ol {
     margin: 20px 0;
   }
   
-  .ingredients li, .instructions li {
+  .ingredients li, .directions li {
     margin-bottom: 10px;
   }
   
   footer {
     text-align: center;
+    color: #cf7908;
     margin-top: 20px;
     padding-top: 20px;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #04000a;
   }
